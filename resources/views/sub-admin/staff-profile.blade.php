@@ -331,28 +331,52 @@
     @include('layouts.staffsrc')
     @include('layouts.tambonsc')
     <script>
-        document.getElementById('fileLink').addEventListener('click', function() {
-            document.getElementById('fileInput').click();
-            document.getElementById('imageInput').style.display = 'block';
-        });
+        // document.getElementById('fileLink').addEventListener('click', function() {
+        //     document.getElementById('fileInput').click();
+        //     document.getElementById('imageInput').style.display = 'block';
+        // });
 
-        document.getElementById('company').addEventListener('click', function() {
-            document.getElementById('company').style.display = 'none';
-            document.getElementById('selectInput').style.display = 'block';
-        });
+        // document.getElementById('company').addEventListener('click', function() {
+        //     document.getElementById('company').style.display = 'none';
+        //     document.getElementById('selectInput').style.display = 'block';
+        // });
 
-        document.getElementById('fileInput').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const previewImage = document.getElementById('previewImage');
-                    previewImage.src = e.target.result;
-                    previewImage.style.display = 'block';
-                };
+        // document.getElementById('fileInput').addEventListener('change', function(event) {
+        //     const file = event.target.files[0];
+        //     if (file) {
+        //         const reader = new FileReader();
+        //         reader.onload = function(e) {
+        //             const previewImage = document.getElementById('previewImage');
+        //             previewImage.src = e.target.result;
+        //             previewImage.style.display = 'block';
+        //         };
 
-                reader.readAsDataURL(file);
-            }
+        //         reader.readAsDataURL(file);
+        //     }
+        // });
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('fileLink').addEventListener('click', function() {
+                document.getElementById('fileInput').click();
+                document.getElementById('imageInput').style.display = 'block';
+            });
+
+            document.getElementById('company').addEventListener('click', function() {
+                document.getElementById('company').style.display = 'none';
+                document.getElementById('selectInput').style.display = 'block';
+            });
+
+            document.getElementById('fileInput').addEventListener('change', function(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const previewImage = document.getElementById('previewImage');
+                        previewImage.src = e.target.result;
+                        previewImage.style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
         });
     </script>
 

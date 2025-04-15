@@ -56,7 +56,7 @@
                                         <button class="nav-link" data-bs-toggle="tab"
                                             data-bs-target="#profile-edit">แก้ไขโปรไฟล์</button>
                                     </li>
-                                    
+
                                     <li class="nav-item">
                                         <button class="nav-link" data-bs-toggle="tab"
                                             data-bs-target="#profile-craeteby">Create By</button>
@@ -134,7 +134,7 @@
                                                 </div>
                                             </div>
 
-                                            
+
 
                                             <div class="row mb-3">
                                                 <label for="Job"
@@ -236,7 +236,7 @@
 
                                     </div>
 
-                                    
+
                                     @foreach ($creator as $creator)
                                     @endforeach
 
@@ -309,35 +309,36 @@
     <script src={{ asset('public/venstaff/php-email-form/validate.js') }}></script>
 
     <!-- Vendor JS Files -->
-    
+
 
     <!-- Template Main JS File -->
     <script src="public/assets/js/main.js"></script>
     <script src={{ asset('js/staffmain.js') }}></script>
     @include('layouts.tambonsc')
     <script>
-        document.getElementById('fileLink').addEventListener('click', function() {
-            document.getElementById('fileInput').click();
-            document.getElementById('imageInput').style.display = 'block';
-        });
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('fileLink').addEventListener('click', function() {
+                document.getElementById('fileInput').click();
+                document.getElementById('imageInput').style.display = 'block';
+            });
 
-        document.getElementById('company').addEventListener('click', function() {
-            document.getElementById('company').style.display = 'none';
-            document.getElementById('selectInput').style.display = 'block';
-        });
+            document.getElementById('company').addEventListener('click', function() {
+                document.getElementById('company').style.display = 'none';
+                document.getElementById('selectInput').style.display = 'block';
+            });
 
-        document.getElementById('fileInput').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const previewImage = document.getElementById('previewImage');
-                    previewImage.src = e.target.result;
-                    previewImage.style.display = 'block';
-                };
-
-                reader.readAsDataURL(file);
-            }
+            document.getElementById('fileInput').addEventListener('change', function(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const previewImage = document.getElementById('previewImage');
+                        previewImage.src = e.target.result;
+                        previewImage.style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
         });
     </script>
 
