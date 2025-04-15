@@ -129,7 +129,7 @@
   <script src="public/assets/vendor/chart.js/chart.umd.js"></script> --}}
 
     <!-- Template Main JS File -->
-    <script src={{ asset('js/main.js') }}></script>
+    <script src={{ asset('public/js/main.js') }}></script>
     <script>
         // $('#imageModal').on('show.bs.modal', function(event) {
         //     var img = $(event.relatedTarget); // Image that triggered the modal

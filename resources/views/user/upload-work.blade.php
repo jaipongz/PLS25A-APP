@@ -114,7 +114,7 @@
   <script src="public/assets/vendor/chart.js/chart.umd.js"></script> --}}
 
     <!-- Template Main JS File -->
-    <script src={{ asset('js/main.js') }}></script>
+    <script src={{ asset('public/js/main.js') }}></script>
 
     <script>
         // document.getElementById('addPerformance').addEventListener('click', function() {
