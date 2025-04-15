@@ -351,29 +351,28 @@
     @include('layouts.tambonsc')
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('fileLink').addEventListener('click', function() {
-                event.preventDefault();
-                document.getElementById('fileInput').click();
-                //document.getElementById('imageInput').style.display = 'block';
-            });
+            const fileLink = document.getElementById('fileLink');
+            const fileInput = document.getElementById('fileInput');
+            const previewImage = document.getElementById('previewImage');
 
-            document.getElementById('company').addEventListener('click', function() {
-                document.getElementById('company').style.display = 'none';
-                document.getElementById('selectInput').style.display = 'block';
-            });
+            if (fileLink && fileInput && previewImage) {
+                fileLink.addEventListener('click', function(event) {
+                    event.preventDefault(); // กันไม่ให้ jump
+                    fileInput.click(); // เปิดตัวเลือกไฟล์
+                });
 
-            document.getElementById('fileInput').addEventListener('change', function(event) {
-                const file = event.target.files[0];
-                if (file) {
-                    const reader = new FileReader();
-                    reader.onload = function(e) {
-                        const previewImage = document.getElementById('previewImage');
-                        previewImage.src = e.target.result;
-                        previewImage.style.display = 'block';
-                    };
-                    reader.readAsDataURL(file);
-                }
-            });
+                fileInput.addEventListener('change', function(event) {
+                    const file = event.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        reader.onload = function(e) {
+                            previewImage.src = e.target.result; // set รูปที่ preview
+                            previewImage.style.display = 'block'; // เผื่อเคยโดนซ่อนไว้
+                        };
+                        reader.readAsDataURL(file);
+                    }
+                });
+            }
         });
     </script>
 
