@@ -479,7 +479,7 @@
             document.getElementById('fileLink').addEventListener('click', function() {
                 event.preventDefault();
                 document.getElementById('fileInput').click();
-                document.getElementById('imageInput').style.display = 'block';
+                //document.getElementById('imageInput').style.display = 'block';
             });
 
             document.getElementById('company').addEventListener('click', function() {
