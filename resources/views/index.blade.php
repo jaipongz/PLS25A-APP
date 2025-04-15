@@ -210,7 +210,7 @@
                             data-skill="{{ strtolower($user->skill) }}""
                             style="display: {{ $key < 6 ? 'block' : 'none' }}">
                             <div class="img-show">
-                                <img src="{{ url('public/image/' . $user->profile_pic) }}" class="img-fluid"
+                                <img src="{{ url('public/public/image/' . $user->profile_pic) }}" class="img-fluid"
                                     alt="">
                             </div>
                             <div class="portfolio-info">
@@ -221,7 +221,7 @@
                                     <p>ปราชญ์ชาวบ้าน <br>
                                         {{ $user->groups }}</p>
                                 </div>
-                                <a href="{{ url('public/image/' . $user->profile_pic) }}"
+                                <a href="{{ url('public/public/image/' . $user->profile_pic) }}"
                                     data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
                                     title="{{ $user->image_alt }}"><i class="bx bx-plus"></i></a>
                                 <a href="{{ route('portfolio', ['id' => $user->id]) }}" class="details-link"

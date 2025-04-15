@@ -159,7 +159,7 @@
                                 data-address="{{ strtolower($user['address']) }}"
                                 data-skill="{{ strtolower($user['skill']) }}"">
                                 <div class="img-show">
-                                    <img src="{{ url('public/image/' . $user['profile_pic']) }}" class="img-fluid"
+                                    <img src="{{ url('public/public/image/' . $user['profile_pic']) }}" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="portfolio-info">
@@ -167,7 +167,7 @@
                                     <h3 class="address" style="display: none">{{ $user['address']}}</h3>
                                     {{-- <h2 class="skill" style="display: none">{{ $user->skill }}</h2> --}}
                                     <p>ปราชญ์ชาวบ้าน {{ $user['groups'] }}</p>
-                                    <a href="{{ url('public/image/' . $user['profile_pic']) }}"
+                                    <a href="{{ url('public/public/image/' . $user['profile_pic']) }}"
                                         data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
                                         title="{{ $user['image_alt'] }}"><i class="bx bx-plus"></i></a>
                                     <a href="{{ route('portfolio', ['id' => $user['id']]) }}" class="details-link"
@@ -184,7 +184,7 @@
                                 data-address="{{ strtolower($user->address) }}"
                                 data-skill="{{ strtolower($user->skill) }}"">
                                 <div class="img-show">
-                                    <img src="{{ url('public/image/' . $user->profile_pic) }}" class="img-fluid"
+                                    <img src="{{ url('public/public/image/' . $user->profile_pic) }}" class="img-fluid"
                                         alt="">
                                 </div>
                                 <div class="portfolio-info">
@@ -192,7 +192,7 @@
                                     <h3 class="address" style="display: none">{{ $user->address }}</h3>
                                     <h2 class="skill" style="display: none">{{ $user->skill }}</h2>
                                     <p>ปราชญ์ชาวบ้าน {{ $user->groups }}</p>
-                                    <a href="{{ url('public/image/' . $user->profile_pic) }}"
+                                    <a href="{{ url('public/public/image/' . $user->profile_pic) }}"
                                         data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"
                                         title="{{ $user->image_alt }}"><i class="bx bx-plus"></i></a>
                                     <a href="{{ route('portfolio', ['id' => $user->id]) }}" class="details-link"

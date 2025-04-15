@@ -135,7 +135,7 @@
                                 <div class="headimage">
                                     <div class="col-sm-10">
                                         <h5 style="color:brown">*รูปหน้าปก</h5>
-                                        <img id="previewImage" src="{{ url('public/image/' . $perform->image) }}"
+                                        <img id="previewImage" src="{{ url('public/public/image/' . $perform->image) }}"
                                             data-toggle="modal" data-target="#uploadModal">
                                         <div class="changepro">
                                             <label for="imageInput" id="changeImageButton" class="btn btn-warning ">เปลี่ยนรูปหน้าปก</label>

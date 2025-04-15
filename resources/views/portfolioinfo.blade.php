@@ -166,7 +166,7 @@
                                     <h1>{{ $head->image_alt }}</h1>
                                 </div>
                                 <div class="headimg">
-                                    <img src="{{ url('public/image/' . $head->image) }}" alt="">
+                                    <img src="{{ url('public/public/image/' . $head->image) }}" alt="">
 
                                 </div>
                                 <div class="infoscript">
@@ -195,7 +195,7 @@
                     <div class="cardper">
                         <div class="conper">
 
-                            <img src="{{ url('public/image/' . $cont->image) }}" alt="">
+                            <img src="{{ url('public/public/image/' . $cont->image) }}" alt="">
                             <h6>{{ $cont->image_alt }}</h6>
 
                         </div>
@@ -204,7 +204,7 @@
 
                     <div class="card " style="width: 23rem;">
                         <div class="image_perform">
-                            <img src="{{ url('public/image/' . $cont->image) }}">
+                            <img src="{{ url('public/public/image/' . $cont->image) }}">
                         </div>
                         
                         <div class="card-body">

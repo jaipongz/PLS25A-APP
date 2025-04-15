@@ -226,7 +226,7 @@
                                             </a>
                                         </div>
                                         <div class="propic">
-                                            <img src="{{ url('public/image/' . $user['profile_pic']) }}"
+                                            <img src="{{ url('public/public/image/' . $user['profile_pic']) }}"
                                                 alt="">
                                         </div>
                                         
@@ -242,7 +242,7 @@
                                             <p>{{ $result->groups }}</p>
                                         </div>
                                         <div class="propic">
-                                            <img src="{{ url('public/image/' . $result->profile_pic) }}"
+                                            <img src="{{ url('public/public/image/' . $result->profile_pic) }}"
                                                 alt="">
                                         </div>
                                     </div>

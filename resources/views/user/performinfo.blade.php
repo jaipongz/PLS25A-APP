@@ -80,7 +80,7 @@
                         @foreach ($perform as $perform)
                             <h1>เนื้อหาของ {{ $perform->image_alt }}</h1>
                             <div class="headpro">
-                                <img src="{{ url('public/image/' . $perform->image) }}">
+                                <img src="{{ url('public/public/image/' . $perform->image) }}">
                             </div>
 
                             <div class="infoscript">

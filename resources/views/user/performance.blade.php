@@ -71,7 +71,7 @@
                             <div class="card " style="width: 23rem;">
                                 <div class="image_perform">
                                     <a href="{{ route('perform.info', ['id' => $perform->image_id]) }}">
-                                        <img src="{{ url('public/image/' . $perform->image) }}">
+                                        <img src="{{ url('public/public/image/' . $perform->image) }}">
 
                                     </a>
                                 </div>

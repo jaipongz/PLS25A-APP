@@ -232,7 +232,7 @@
                             <div class="swiper-wrapper align-items-center">
                                 @foreach ($perform as $perform)
                                     <div class="swiper-slide">
-                                        <img src="{{ url('public/image/' . $perform->image) }}"
+                                        <img src="{{ url('public/public/image/' . $perform->image) }}"
                                             alt="{{ $perform->image_alt }}">
                                         {{-- <p>{{$perform->image_alt}}</p> --}}
                                         {{-- <h1>{{$perform->image_alt}}</h1> --}}
@@ -253,7 +253,7 @@
                                 <ul>
                                     <div class="setpic">
                                         <div class="propic">
-                                            <img src="{{ url('public/image/' . $users->profile_pic) }}" alt="">
+                                            <img src="{{ url('public/public/image/' . $users->profile_pic) }}" alt="">
                                         </div>
                                     </div>
 
@@ -285,7 +285,7 @@
                                     href="{{ route('portinfo', ['id' => $cont->image_id]) }}">
                                     <div>
                                         <div class="image_perform">
-                                            <img src="{{ url('public/image/' . $cont->image) }}">
+                                            <img src="{{ url('public/public/image/' . $cont->image) }}">
                                         </div>
 
                                         <div class="card-body">
@@ -311,7 +311,7 @@
                     <div class="cardper">
                         <div class="conper">
 
-                            <img src="{{ url('public/image/' . $cont->image) }}" alt="">
+                            <img src="{{ url('public/public/image/' . $cont->image) }}" alt="">
                             <h6>{{ $cont->image_alt }}</h6>
 
                         </div>
@@ -320,7 +320,7 @@
 
                     <div class="card " style="width: 23rem;">
                         <div class="image_perform">
-                            <img src="{{ url('public/image/' . $cont->image) }}">
+                            <img src="{{ url('public/public/image/' . $cont->image) }}">
                         </div>
                         
                         <div class="card-body">

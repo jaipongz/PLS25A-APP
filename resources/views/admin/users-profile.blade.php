@@ -95,7 +95,7 @@
                         <div class="card">
                             <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
                                 <div class="profile_pic">
-                                    <img id="profileImage" src="{{ url('public/image/' . $users->profile_pic) }}"
+                                    <img id="profileImage" src="{{ url('public/public/image/' . $users->profile_pic) }}"
                                         alt="Profile">
                                 </div>
                                 <h2>{{ $users->name }}</h2>
@@ -173,7 +173,7 @@
                                                 <div class="col-md-8 col-lg-9">
                                                     <div class="editprofile">
                                                         <img id="previewImage" name="oldprofile"
-                                                            src="{{ url('public/image/' . $users->profile_pic) }}"
+                                                            src="{{ url('public/public/image/' . $users->profile_pic) }}"
                                                             alt="Profile">
                                                     </div>
                                                     <div class="pt-2">
