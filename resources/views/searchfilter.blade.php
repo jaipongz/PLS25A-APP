@@ -34,7 +34,7 @@
 
     <!-- Template Main CSS File -->
     {{-- <link href="resources/views/User/public/assets/css/style.css" rel="stylesheet"> --}}
-    <link rel="stylesheet" href={{ asset('css/home.css') }}>
+    <link rel="stylesheet" href={{ asset('public/css/home.css') }}>
 
     <!-- Icons -->
     <link rel='stylesheet'
