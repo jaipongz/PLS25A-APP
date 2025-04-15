@@ -20,12 +20,12 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link rel="stylesheet" href={{ asset('venstaff/bootstrap/css/bootstrap.min.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/bootstrap-icons/bootstrap-icons.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/boxicons/css/boxicons.min.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/bootstrap/css/bootstrap.min.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/bootstrap-icons/bootstrap-icons.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/boxicons/css/boxicons.min.css') }}>
 
     <!-- Template Main CSS File -->
-    <link href={{ asset('css/staff.css') }} rel="stylesheet">
+    <link href={{ asset('public/css/staff.css') }} rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: NiceAdmin

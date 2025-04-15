@@ -431,14 +431,14 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <script src={{ asset('venstaff/apexcharts/apexcharts.min.js') }}></script>
-  <script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
-  <script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
-  <script src={{ asset('venstaff/echarts/echarts.min.js') }}></script>
-  <script src={{ asset('venstaff/quill/quill.min.js') }}></script>
-  <script src={{ asset('venstaff/simple-datatables/simple-datatables.js') }}></script>
-  <script src={{ asset('venstaff/tinymce/tinymce.min.js') }}></script>
-  <script src={{ asset('venstaff/php-email-form/validate.js') }}></script>
+  <script src={{ asset('public/venstaff/apexcharts/apexcharts.min.js') }}></script>
+  <script src={{ asset('public/venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
+  <script src={{ asset('public/venstaff/chart.js/chart.umd.js') }}></script>
+  <script src={{ asset('public/venstaff/echarts/echarts.min.js') }}></script>
+  <script src={{ asset('public/venstaff/quill/quill.min.js') }}></script>
+  <script src={{ asset('public/venstaff/simple-datatables/simple-datatables.js') }}></script>
+  <script src={{ asset('public/venstaff/tinymce/tinymce.min.js') }}></script>
+  <script src={{ asset('public/venstaff/php-email-form/validate.js') }}></script>
 
   <!-- Vendor JS Files -->
   <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>

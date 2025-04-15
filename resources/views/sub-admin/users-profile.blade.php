@@ -346,7 +346,7 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 
-    {{-- <link rel="stylesheet" href={{ asset('venstaff/bootstrap/css/bootstrap.min.css') }}> --}}
+    {{-- <link rel="stylesheet" href={{ asset('public/venstaff/bootstrap/css/bootstrap.min.css') }}> --}}
     @include('layouts.staffsrc')
     @include('layouts.tambonsc')
     <script>

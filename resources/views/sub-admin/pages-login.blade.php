@@ -20,13 +20,13 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link rel="stylesheet" href={{ asset('venstaff/bootstrap/css/bootstrap.min.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/bootstrap-icons/bootstrap-icons.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/boxicons/css/boxicons.min.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/quill/quill.snow.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/quill/quill.bubble.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/remixicon/remixicon.css') }}>
-    <link rel="stylesheet" href={{ asset('venstaff/simple-datatables/style.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/bootstrap/css/bootstrap.min.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/bootstrap-icons/bootstrap-icons.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/boxicons/css/boxicons.min.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/quill/quill.snow.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/quill/quill.bubble.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/remixicon/remixicon.css') }}>
+    <link rel="stylesheet" href={{ asset('public/venstaff/simple-datatables/style.css') }}>
 
 
     {{-- <link href="public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,7 +39,7 @@
 
     <!-- Template Main CSS File -->
     {{-- <link href="public/assets/css/style.css" rel="stylesheet"> --}}
-    <link rel="stylesheet" href={{ asset('css/staff.css') }}>
+    <link rel="stylesheet" href={{ asset('public/css/staff.css') }}>
 
     <!-- =======================================================
   * Template Name: NiceAdmin
@@ -130,14 +130,14 @@
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i>class="bi bi-arrow-up-short"></i></a>
 
-    <script src={{ asset('venstaff/apexcharts/apexcharts.min.js') }}></script>
-    <script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
-    <script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
-    <script src={{ asset('venstaff/echarts/echarts.min.js') }}></script>
-    <script src={{ asset('venstaff/quill/quill.min.js') }}></script>
-    <script src={{ asset('venstaff/simple-datatables/simple-datatables.js') }}></script>
-    <script src={{ asset('venstaff/tinymce/tinymce.min.js') }}></script>
-    <script src={{ asset('venstaff/php-email-form/validate.js') }}></script>
+    <script src={{ asset('public/venstaff/apexcharts/apexcharts.min.js') }}></script>
+    <script src={{ asset('public/venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
+    <script src={{ asset('public/venstaff/chart.js/chart.umd.js') }}></script>
+    <script src={{ asset('public/venstaff/echarts/echarts.min.js') }}></script>
+    <script src={{ asset('public/venstaff/quill/quill.min.js') }}></script>
+    <script src={{ asset('public/venstaff/simple-datatables/simple-datatables.js') }}></script>
+    <script src={{ asset('public/venstaff/tinymce/tinymce.min.js') }}></script>
+    <script src={{ asset('public/venstaff/php-email-form/validate.js') }}></script>
 
     <!-- Vendor JS Files -->
     <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>

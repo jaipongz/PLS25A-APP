@@ -203,9 +203,9 @@
 
 
     <!-- Vendor JS Files -->
-    <script src={{ asset('venstaff/apexcharts/apexcharts.min.js') }}></script>
-    <script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
-    <script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
+    <script src={{ asset('public/venstaff/apexcharts/apexcharts.min.js') }}></script>
+    <script src={{ asset('public/venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
+    <script src={{ asset('public/venstaff/chart.js/chart.umd.js') }}></script>
 
     {{-- <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -1,12 +1,12 @@
-<script src={{ asset('venstaff/apexcharts/apexcharts.min.js') }}></script>
-<script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
-<script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
-<script src={{ asset('venstaff/echarts/echarts.min.js') }}></script>
-<script src={{ asset('venstaff/quill/quill.min.js') }}></script>
-<script src={{ asset('venstaff/simple-datatables/simple-datatables.js') }}></script>
-<script src={{ asset('venstaff/tinymce/tinymce.min.js') }}></script>
-<script src={{ asset('venstaff/php-email-form/validate.js') }}></script>
+<script src={{ asset('public/venstaff/apexcharts/apexcharts.min.js') }}></script>
+<script src={{ asset('public/venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
+<script src={{ asset('public/venstaff/chart.js/chart.umd.js') }}></script>
+<script src={{ asset('public/venstaff/echarts/echarts.min.js') }}></script>
+<script src={{ asset('public/venstaff/quill/quill.min.js') }}></script>
+<script src={{ asset('public/venstaff/simple-datatables/simple-datatables.js') }}></script>
+<script src={{ asset('public/venstaff/tinymce/tinymce.min.js') }}></script>
+<script src={{ asset('public/venstaff/php-email-form/validate.js') }}></script>
 
 <!-- Template Main JS File -->
 <script src="public/assets/js/main.js"></script>
-<script src={{ asset('js/staffmain.js') }}></script>
+<script src={{ asset('public/js/staffmain.js') }}></script>
