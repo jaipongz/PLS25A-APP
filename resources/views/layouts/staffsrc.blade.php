@@ -8,5 +8,5 @@
 <script src={{ asset('venstaff/php-email-form/validate.js') }}></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="public/assets/js/main.js"></script>
 <script src={{ asset('js/staffmain.js') }}></script>

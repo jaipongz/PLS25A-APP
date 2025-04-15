@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -25,16 +25,16 @@
     <link href={{ asset('vendor/glightbox/css/glightbox.min.css') }} rel="stylesheet">
     <link href={{ asset('vendor/remixicon/remixicon.css') }} rel="stylesheet">
     <link href={{ asset('vendor/swiper/swiper-bundle.min.css') }} rel="stylesheet">
-    {{-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
-    {{-- <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet"> --}}
+    {{-- <link href="public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
+    {{-- <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet"> --}}
 
     <!-- Template Main CSS File -->
     <link href={{ asset('css/home.css') }} rel="stylesheet">
-    {{-- <link href="assets/css/style.css" rel="stylesheet"> --}}
+    {{-- <link href="public/assets/css/style.css" rel="stylesheet"> --}}
 
     <!-- Icons -->
     <link rel='stylesheet'
@@ -120,7 +120,7 @@
                 <p style="padding-top: 10px; font-size: large; color: azure;">อำเภอกันทรวิชัย จังหวัดมหาสารคาม</p>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            <!-- <a href="index.html" class="logo"><img src="public/assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
             <nav id="navbar" class="navbar">
                 <ul>
@@ -303,7 +303,7 @@
 
 
     <!-- Template Main JS File -->
-    {{-- <script src="assets/js/main.js"></script> --}}
+    {{-- <script src="public/assets/js/main.js"></script> --}}
 
 </body>
 

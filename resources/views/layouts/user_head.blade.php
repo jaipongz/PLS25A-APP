@@ -7,8 +7,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     {{-- <script src="https://cdn.tiny.cloud/1/3u0ppzzr5xtxx2udyxefh7aeezur9m0pl96r9uegsze2s2px/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script> --}}
     <link href="https://fonts.gstatic.com" rel="preconnect">

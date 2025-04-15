@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -26,14 +26,14 @@
     <link href={{ asset('vendor/remixicon/remixicon.css') }} rel="stylesheet">
     <link href={{ asset('vendor/swiper/swiper-bundle.min.css') }} rel="stylesheet">
 
-    {{-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> --}}
+    {{-- <link href="public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="public/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> --}}
 
     <!-- Template Main CSS File -->
-    {{-- <link href="resources/views/User/assets/css/style.css" rel="stylesheet"> --}}
+    {{-- <link href="resources/views/User/public/assets/css/style.css" rel="stylesheet"> --}}
     <link rel="stylesheet" href={{ asset('css/home.css') }}>
 
     <!-- Icons -->

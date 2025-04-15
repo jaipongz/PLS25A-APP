@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -264,7 +264,7 @@
     @include('layouts.staffsrc')
 
     <!-- Template Main JS File -->
-    {{-- <script src="assets/js/main.js"></script> --}}
+    {{-- <script src="public/assets/js/main.js"></script> --}}
     <script src={{ asset('js/main.js') }}></script>
 
 </body>

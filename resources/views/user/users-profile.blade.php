@@ -312,7 +312,7 @@
     
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="public/assets/js/main.js"></script>
     <script src={{ asset('js/staffmain.js') }}></script>
     @include('layouts.tambonsc')
     <script>

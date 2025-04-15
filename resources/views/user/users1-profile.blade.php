@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -82,7 +82,7 @@
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
+                <img src="public/assets/img/logo.png" alt="">
                 <span class="d-none d-lg-block">Philosopher</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -108,7 +108,7 @@
 
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#"
                         data-bs-toggle="dropdown">
-                        <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                        <img src="public/assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
                         <span class="d-none d-md-block dropdown-toggle ps-2">LomiwiriS</span>
                     </a><!-- End Profile Iamge Icon -->
 
@@ -462,17 +462,17 @@
     <script src={{ asset('venstaff/php-email-form/validate.js') }}></script>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/chart.js/chart.umd.js"></script>
-    <script src="assets/vendor/echarts/echarts.min.js"></script>
-    <script src="assets/vendor/quill/quill.min.js"></script>
-    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
-    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="public/assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="public/assets/vendor/echarts/echarts.min.js"></script>
+    <script src="public/assets/vendor/quill/quill.min.js"></script>
+    <script src="public/assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="public/assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="public/assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="public/assets/js/main.js"></script>
     <script src={{ asset('js/staffmain.js') }}></script>
     <script>
         document.getElementById('fileLink').addEventListener('click', function() {

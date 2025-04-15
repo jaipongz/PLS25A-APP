@@ -7,8 +7,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -25,13 +25,13 @@
     <link rel="stylesheet" href={{ asset('venstaff/remixicon/remixicon.css') }}>
     <link rel="stylesheet" href={{ asset('venstaff/simple-datatables/style.css') }}>
 
-    {{-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet"> --}}
+    {{-- <link href="public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="public/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="public/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="public/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="public/assets/vendor/simple-datatables/style.css" rel="stylesheet"> --}}
 
     <!-- Template Main CSS File -->
     <link href={{ asset('css/staff.css') }} rel="stylesheet">

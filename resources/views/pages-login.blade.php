@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -53,7 +53,7 @@
 
                             <div class="d-flex justify-content-center py-4">
                                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                                    <img src="assets/img/logo.png" alt="">
+                                    <img src="public/assets/img/logo.png" alt="">
                                     <span class="d-none d-lg-block">Login</span>
                                 </a>
                             </div><!-- End Logo -->
@@ -140,9 +140,9 @@
     <script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
     <script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
 
-    {{-- <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/chart.js/chart.umd.js"></script> --}}
+    {{-- <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="public/assets/vendor/chart.js/chart.umd.js"></script> --}}
 
     <!-- Template Main JS File -->
     <script src={{ asset('js/main.js') }}></script>

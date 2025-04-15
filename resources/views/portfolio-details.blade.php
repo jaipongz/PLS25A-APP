@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="public/assets/img/favicon.png" rel="icon">
+    <link href="public/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -19,22 +19,22 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href={{ asset('vendor/bootstrap/css/bootstrap.min.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/bootstrap-icons/bootstrap-icons.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/boxicons/css/boxicons.min.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/glightbox/css/glightbox.min.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/remixicon/remixicon.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/swiper/swiper-bundle.min.css') }} rel="stylesheet">
-    {{-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
-    {{-- <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet">
-  <link href="assets/" rel="stylesheet"> --}}
+    <link href={{ asset('public/vendor/bootstrap/css/bootstrap.min.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/bootstrap-icons/bootstrap-icons.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/boxicons/css/boxicons.min.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/glightbox/css/glightbox.min.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/remixicon/remixicon.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/swiper/swiper-bundle.min.css') }} rel="stylesheet">
+    {{-- <link href="public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> --}}
+    {{-- <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet">
+  <link href="public/assets/" rel="stylesheet"> --}}
 
     <!-- Template Main CSS File -->
-    <link href={{ asset('css/home.css') }} rel="stylesheet">
-    {{-- <link href="assets/css/style.css" rel="stylesheet"> --}}
+    <link href={{ asset('public/css/home.css') }} rel="stylesheet">
+    {{-- <link href="public/assets/css/style.css" rel="stylesheet"> --}}
 
     <!-- Icons -->
     <link rel='stylesheet'
@@ -401,18 +401,18 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
-    <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('vendor/swiper/swiper-bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
+    <script src="{{ asset('public/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/php-email-form/validate.js') }}"></script>
 
 
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('public/js/main.js') }}"></script>
 
 
     <!-- Template Main JS File -->
-    {{-- <script src="assets/js/main.js"></script> --}}
+    {{-- <script src="public/assets/js/main.js"></script> --}}
 
 </body>
 

@@ -307,21 +307,21 @@
 
                                             <div class="news">
                                                 <div class="post-item clearfix">
-                                                    <img src="assets/img/news-1.jpg" alt="">
+                                                    <img src="public/assets/img/news-1.jpg" alt="">
                                                     <h4><a href="#">Nihil blanditiis at in nihil autem</a></h4>
                                                     <p>Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed
                                                         ut harum...</p>
                                                 </div>
 
                                                 <div class="post-item clearfix">
-                                                    <img src="assets/img/news-2.jpg" alt="">
+                                                    <img src="public/assets/img/news-2.jpg" alt="">
                                                     <h4><a href="#">Quidem autem et impedit</a></h4>
                                                     <p>Illo nemo neque maiores vitae officiis cum eum turos elan dries
                                                         werona nande...</p>
                                                 </div>
 
                                                 <div class="post-item clearfix">
-                                                    <img src="assets/img/news-3.jpg" alt="">
+                                                    <img src="public/assets/img/news-3.jpg" alt="">
                                                     <h4><a href="#">Id quia et et ut maxime similique occaecati
                                                             ut</a></h4>
                                                     <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed
@@ -329,14 +329,14 @@
                                                 </div>
 
                                                 <div class="post-item clearfix">
-                                                    <img src="assets/img/news-4.jpg" alt="">
+                                                    <img src="public/assets/img/news-4.jpg" alt="">
                                                     <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                                                     <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel
                                                         rerum cuder...</p>
                                                 </div>
 
                                                 <div class="post-item clearfix">
-                                                    <img src="assets/img/news-5.jpg" alt="">
+                                                    <img src="public/assets/img/news-5.jpg" alt="">
                                                     <h4><a href="#">Et dolores corrupti quae illo quod dolor</a>
                                                     </h4>
                                                     <p>Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae
@@ -380,9 +380,9 @@
     <script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
     <script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
 
-    {{-- <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/chart.js/chart.umd.js"></script> --}}
+    {{-- <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="public/assets/vendor/chart.js/chart.umd.js"></script> --}}
 
     <!-- Template Main JS File -->
     <script src={{ asset('js/main.js') }}></script>
