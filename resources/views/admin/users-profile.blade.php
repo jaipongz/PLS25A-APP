@@ -397,6 +397,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('fileLink').addEventListener('click', function() {
+                event.preventDefault();
                 document.getElementById('fileInput').click();
                 document.getElementById('imageInput').style.display = 'block';
             });
