@@ -313,7 +313,7 @@
 
     <!-- Template Main JS File -->
     <script src="public/assets/js/main.js"></script>
-    <script src={{ asset('js/staffmain.js') }}></script>
+    <script src={{ asset('public/js/staffmain.js') }}></script>
     @include('layouts.tambonsc')
     <script>
         document.addEventListener('DOMContentLoaded', function() {
