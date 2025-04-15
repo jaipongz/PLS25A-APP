@@ -115,16 +115,16 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src={{ asset('venstaff/apexcharts/apexcharts.min.js') }}></script>
-    <script src={{ asset('venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
-    <script src={{ asset('venstaff/chart.js/chart.umd.js') }}></script>
+    <script src={{ asset('public/venstaff/apexcharts/apexcharts.min.js') }}></script>
+    <script src={{ asset('public/venstaff/bootstrap/js/bootstrap.bundle.min.js') }}></script>
+    <script src={{ asset('public/venstaff/chart.js/chart.umd.js') }}></script>
 
     {{-- <script src="public/assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="public/assets/vendor/chart.js/chart.umd.js"></script> --}}
 
     <!-- Template Main JS File -->
-    <script src={{ asset('js/main.js') }}></script>
+    <script src={{ asset('public/js/main.js') }}></script>
     <script>
         // $('#imageModal').on('show.bs.modal', function(event) {
         //     var img = $(event.relatedTarget); // Image that triggered the modal

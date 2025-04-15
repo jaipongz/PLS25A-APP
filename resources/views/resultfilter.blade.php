@@ -19,12 +19,12 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href={{ asset('vendor/bootstrap/css/bootstrap.min.css') }} rel="stylesheet">
-    <link rel="stylesheet" href={{ asset('venstaff/bootstrap-icons/bootstrap-icons.css') }}>
-    <link href={{ asset('vendor/boxicons/css/boxicons.min.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/glightbox/css/glightbox.min.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/remixicon/remixicon.css') }} rel="stylesheet">
-    <link href={{ asset('vendor/swiper/swiper-bundle.min.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/bootstrap/css/bootstrap.min.css') }} rel="stylesheet">
+    <link rel="stylesheet" href={{ asset('public/venstaff/bootstrap-icons/bootstrap-icons.css') }}>
+    <link href={{ asset('public/vendor/boxicons/css/boxicons.min.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/glightbox/css/glightbox.min.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/remixicon/remixicon.css') }} rel="stylesheet">
+    <link href={{ asset('public/vendor/swiper/swiper-bundle.min.css') }} rel="stylesheet">
 
     {{-- <link href="public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="public/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
 
     <!-- Template Main CSS File -->
     {{-- <link href="resources/views/User/public/assets/css/style.css" rel="stylesheet"> --}}
-    <link rel="stylesheet" href={{ asset('css/home.css') }}>
+    <link rel="stylesheet" href={{ asset('public/css/home.css') }}>
 
     <!-- Icons -->
     <link rel='stylesheet'
@@ -338,12 +338,12 @@
 
     <!-- Vendor JS Files -->
     {{-- <link href={{asset('vendor/swiper/swiper-bundle.min.css')}} rel="stylesheet"> --}}
-    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
-    <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('vendor/php-email-form/validate.js') }}"></script>
+    <script src="{{ asset('public/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/glightbox/js/glightbox.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('public/vendor/php-email-form/validate.js') }}"></script>
 
-    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('public/js/main.js') }}"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         // Add event listener to search input
